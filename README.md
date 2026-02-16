@@ -7,17 +7,6 @@ A complete implementation of the Transformer architecture for neural machine tra
 **Dataset**: OPUS Books English-Italian (~127K sentence pairs)  
 **Performance**: Training Loss ~5.8, Validation Loss ~6.2 after 2 epochs
 
----
-
-### Key Features
-- Complete Transformer implementation from scratch
-- Multi-head self-attention with 8 attention heads
-- Real-time training monitoring with TensorBoard
-- Interactive CLI for translation testing
-- Checkpoint system for resumable training
-
----
-
 ## Tech Stack
 
 - **PyTorch** - Deep learning framework
@@ -25,7 +14,12 @@ A complete implementation of the Transformer architecture for neural machine tra
 - **Tokenizers** - Word-level tokenization
 - **TensorBoard** - Training visualization
 
----
+### Key Features
+
+- Multi-head self-attention with 8 attention heads
+- Real-time training monitoring with TensorBoard
+- Interactive CLI for translation testing
+- Checkpoint for resumable training
 
 ## Architecture
 
@@ -37,7 +31,6 @@ A complete implementation of the Transformer architecture for neural machine tra
 - **Parameters**: ~60 Million
 - **Sequence Length**: 320 tokens
 
----
 
 ## Installation
 
@@ -54,8 +47,6 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install torch torchvision torchaudio
 pip install datasets tokenizers tqdm tensorboard
 ```
-
----
 
 ## Usage
 
@@ -83,8 +74,6 @@ View training progress and sample translations:
 tensorboard --logdir=runs
 ```
 
-
----
 
 ## Results
 

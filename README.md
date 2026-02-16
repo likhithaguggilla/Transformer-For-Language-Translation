@@ -3,8 +3,8 @@
 A complete implementation of the Transformer architecture for neural machine translation, built from scratch using PyTorch. This project translates English sentences to Italian using a model trained on the OPUS Books dataset.
 
 
-**Training**: 2 epochs on NVIDIA T4 GPU (Google Colab) in ~40 minutes  
-**Dataset**: OPUS Books English-Italian (~127K sentence pairs)  
+**Training**: 2 epochs on NVIDIA T4 GPU (Google Colab) in ~40 minutes 
+**Dataset**: OPUS Books English-Italian (~127K sentence pairs) (90/10 train-test split)
 **Performance**: Training Loss ~5.8, Validation Loss ~6.2 after 2 epochs
 
 ## Tech Stack

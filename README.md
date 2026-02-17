@@ -6,7 +6,7 @@ A complete implementation of the Transformer architecture for neural machine tra
 
 **Training**: 2 epochs on NVIDIA T4 GPU (Google Colab) in ~40 minutes
 
-**Dataset**: OPUS Books English-Italian (~127K sentence pairs) (90/10 train-test split)
+**Dataset**: OPUS Books English-Italian (~33K sentence pairs) (90/10 train-test split)
 
 **Performance**: Training Loss ~5.8, Validation Loss ~6.2 after 2 epochs
 
